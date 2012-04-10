@@ -1,0 +1,42 @@
+Rain Lua class to use with Corona SDK
+=====================================
+
+It is about creating rain effect in your
+iPhone games.
+
+Play with drop width/length/color/speed and it
+may look like snow.
+
+
+Basic usage
+===========
+
+local rain = require("rain")
+
+rain.new(group, {})
+
+
+You can find example of usage in `main.lua` file.
+It is fully working example so just run it in the emulator.
+
+
+Rain config
+===========
+
+Rain construction accepts several params:
+
+* angle - rain angle, degrees
+* toRight - boolean, if rain is from left to right. Default is from right to left
+* speed - drop movement speed, float
+* floor - Y coord to specify your ground/bottom
+* length - drop length
+* width - drop thickness
+* alpha - transparency of the drop
+* color - drop color, defaulu is white
+* count - drops count to create
+
+
+Any suggestions?
+================
+
+Vova Sergeyev, pydevside@gmail.com
