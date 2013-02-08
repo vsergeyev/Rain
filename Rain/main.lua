@@ -24,3 +24,9 @@ group:insert(bg)
 local rain = require("rain")
 
 rain.new(group, {})
+
+-- Pause rain:
+rain.pause()
+
+-- Resume rain:
+rain.resume()

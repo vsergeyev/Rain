@@ -16,6 +16,18 @@ local rain = require("rain")
 rain.new(group, {})
 
 
+Pause rain
+----------
+
+rain.pause()
+
+
+Resume rain
+-----------
+
+rain.resume()
+
+
 You can find example of usage in `main.lua` file.
 It is fully working example so just run it in the emulator.
 

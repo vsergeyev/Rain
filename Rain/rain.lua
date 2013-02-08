@@ -65,6 +65,14 @@ function rain.new(group, config)
 	Runtime:addEventListener( "enterFrame", rain.rainHandler )
 end
 
+function rain.pause()
+	Runtime:removeEventListener( "enterFrame", rain.rainHandler )
+end
+
+function rain.resume()
+	Runtime:addEventListener( "enterFrame", rain.rainHandler )
+end
+
 return rain
 
 ----------------
