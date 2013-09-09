@@ -1,11 +1,10 @@
-Rain Lua class to use with Corona SDK
-=====================================
+Rain/Snow Lua class to use with Corona SDK
+==========================================
 
-It is about creating rain effect in your
+It is about creating rain or snow effect in your
 iPhone games.
 
-Play with drop width/length/color/speed and it
-may look like snow.
+Play with drop width/length/color/speed :)
 
 
 Basic usage
@@ -37,6 +36,7 @@ Rain config
 
 Rain construction accepts several params:
 
+* snow - optional, make snow not rain
 * angle - rain angle, degrees
 * toRight - boolean, if rain is from left to right. Default is from right to left
 * speed - drop movement speed, float
